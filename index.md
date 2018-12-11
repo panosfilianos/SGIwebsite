@@ -1,9 +1,8 @@
 ---
-layout: list
-title: Posts
+layout: page
+title: Home
 description: >
-  This is the `list` layout for showing blog posts, which shows just the title and groups them by year of publication.
-  Check out the `blog` layout for comparison.
-  Open `posts.md` to edit this text.
+  The official Hydejack blog. Version updates, example content and how-to guides on how to blog with Jekyll.
+  Open `index.html` to edit this text.
+cover: true
 ---
-Let's try
