@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url:                   https://scoupafi.github.io/SGIwebsite/
+url:                   https://scoupafi.github.io/
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -19,18 +19,18 @@ baseurl:               '/hydejack'
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Hydejack
+title:                 SGI
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
   "Best Jekyll Theme by a Mile".
-  **Hydejack** is your presence on the web, featuring a blog, portfolio, and resume.
+  **Hydejack** is your presence on the web, dance.
 
 # A shorter description for the sidebar.
 tagline:               >
   "Best Jekyll Theme by a Mile".
-  Open `_config.yml` to edit this text.
+  Open `_config.yml` to edit this text. DONE
 
 # A list of keywords for your blog
 keywords:              []
