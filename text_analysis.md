@@ -173,5 +173,6 @@ As a tribute to the great band, great album and great people that came up with t
 
 ## Conclusions
 
+### [Go back to the home page](https://scoupafi.github.io/SGIwebsite/index.html)
 
 

@@ -232,3 +232,5 @@ The recommended artists for the artist *Ed Sheran* using our second approach are
 
 [Add picture]
 
+### [Go back to the home page](https://scoupafi.github.io/SGIwebsite/index.html)
+

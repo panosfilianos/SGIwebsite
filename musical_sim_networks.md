@@ -59,3 +59,5 @@ Keep reading and enjoy!
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=q7lKpkW_jG8" target="_blank"><img src="http://img.youtube.com/vi/q7lKpkW_jG8/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+### [Go back to the home page](https://scoupafi.github.io/SGIwebsite/index.html)
