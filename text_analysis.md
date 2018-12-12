@@ -8,7 +8,7 @@ title: Text Analysis
 # Text Analysis
 
 ![Imgur](https://i.imgur.com/WSPHhFl.png){:class="img-responsive"}
-![Imgur](https://i.imgur.com/E6N9bF8.png{:class="img-responsive"}
+![Imgur](https://i.imgur.com/E6N9bF8.png){:class="img-responsive"}
 ![Imgur](https://i.imgur.com/kOWiPFT.png){:class="img-responsive"}
 ![Imgur](https://i.imgur.com/5Qq5Td7.png){:class="img-responsive"}
 ![Imgur](https://i.imgur.com/zZriTmp.png){:class="img-responsive"}
