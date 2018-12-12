@@ -21,4 +21,8 @@ To put it in a nutshell, we are interested in:
  * Analysing all the song's lyrics with focus on sentiment, grammar, lexical similarity as well as a set of other features and plot the results to reach meaningful conclusions
 
 To do that we take things step by step. Do so along with us:
-[Some Link]({% dataset.md %})
+# [Some Link](https://scoupafi.github.io/SGIwebsite/dataset.html)
+# [Some Link](https://scoupafi.github.io/SGIwebsite/collab_networks.html)
+# [Some Link](https://scoupafi.github.io/SGIwebsite/musical_sim_networks.html)
+# [Some Link](https://scoupafi.github.io/SGIwebsite/text_analysis.html)
+
