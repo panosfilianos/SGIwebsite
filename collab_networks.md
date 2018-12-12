@@ -11,7 +11,7 @@ The data that we have used during this section has been the list of 100 artists 
 
 Thanks to the information retrieved from the artists' songs colaborations, the following network has been created.
 
-[Imgur](https://i.imgur.com/1PJirji.png){:class="img-responsive"}
+![Imgur](https://i.imgur.com/1PJirji.png){:class="img-responsive"}
 
 ### Main characteristics of the structure of the network
 
@@ -69,7 +69,7 @@ We can also see with the results retrieved for rock and blues artists are the on
 *Analysis of the isolated nodes*
 
 
-[Imgur](https://i.imgur.com/JuN05MG.png){:class="img-responsive"}
+![Imgur](https://i.imgur.com/JuN05MG.png){:class="img-responsive"}
 
 With the information retrieved, we can say that the genre with more artists without collaborations is *rock*. In fact, more than fifty artists of the rock genre have no collaborations, which means that 50% of the artists of genre rock do not collaborate with other artists. This measure is quite significant to determine that rock artists tend to just perform their own music.
 
@@ -80,7 +80,7 @@ Rock genre is followed by blues and indie, which have around 40 isolated artists
 
 We want to also analyze the number of times that each artist has collaborated with other artists. To do it, a second visualization of the graph is displayed below. On it, each node is also colored by genre and the size assigned to the node is the weighted degree of each one.
 
-[Imgur](https://i.imgur.com/foM6aqf.png){:class="img-responsive"}
+![Imgur](https://i.imgur.com/foM6aqf.png){:class="img-responsive"}
 
 ### Main characteristics of the structure of the network
 
@@ -150,7 +150,7 @@ To obtain deeper information of the artists, a further analysis on the centralit
 
 ### Betweenness centrality
 
-[Imgur](https://i.imgur.com/tmDURUR.png){:class="img-responsive"}
+![Imgur](https://i.imgur.com/tmDURUR.png){:class="img-responsive"}
 
 **Main outcome abstracted:**
 
@@ -163,7 +163,7 @@ To obtain deeper information of the artists, a further analysis on the centralit
 
 ### Eigenvector centrality
 
-[Imgur](https://i.imgur.com/R0JDq2x.png){:class="img-responsive"}
+![Imgur](https://i.imgur.com/R0JDq2x.png){:class="img-responsive"}
 
 **Main outcome abstracted:**
 
@@ -178,7 +178,7 @@ To obtain deeper information of the artists, a further analysis on the centralit
 The distribution of collaborations between the artists of our network is calculated to 
 check which is the genre that tends to have more artists that collaborated with other ones. A table with the total number of collaborations per genre is also shown.
 
-[Imgur](https://i.imgur.com/VQCsJDF.png){:class="img-responsive"}
+![Imgur](https://i.imgur.com/VQCsJDF.png){:class="img-responsive"}
 
 |         | Number of collaborations |
 |---------|--------------------------|
@@ -197,9 +197,9 @@ With the plot and information displayed, we can confirm that *hip-hop* and *pop*
 
 At this point, we would like to see if artists of one same genre, tend to collaborate with artists of the same genre or to different ones. To do it, we have found the different communities in our network and we will see if exists a correlation with the genres assigned to each node. A graph visualization with the nodes showed by community and a confusion matrix are showed below.
 
-[Imgur](https://i.imgur.com/dXoVLf1.png){:class="img-responsive"}
+![Imgur](https://i.imgur.com/dXoVLf1.png){:class="img-responsive"}
 
-[Imgur](https://i.imgur.com/Fk7toAU.png){:class="img-responsive"}
+![Imgur](https://i.imgur.com/Fk7toAU.png){:class="img-responsive"}
 
 **Main information abstracted from the communities created:**
 
@@ -236,7 +236,7 @@ Before doing that we have retrieved some useful information regarding the clique
 
 An example of clique calculated is shown below.
 
-[Imgur](https://i.imgur.com/8dkOUz2.png){:class="img-responsive"}
+![Imgur](https://i.imgur.com/8dkOUz2.png){:class="img-responsive"}
 
 ## Recommendation system
 
@@ -244,12 +244,12 @@ The bases for a recommendation system of artists based on the information retrie
 
 The recommended artists for the artist *Ed Sheran* using our first approach are showed below.
 
-[Imgur](https://i.imgur.com/AFv0OxC.png){:class="img-responsive"}
+![Imgur](https://i.imgur.com/AFv0OxC.png){:class="img-responsive"}
 
 
 The recommended artists for the artist *Ed Sheran* using our second approach are showed below.
 
-[Imgur](https://i.imgur.com/2EmYicd.png){:class="img-responsive"}
+![Imgur](https://i.imgur.com/2EmYicd.png){:class="img-responsive"}
 
 # Conclusions
 
