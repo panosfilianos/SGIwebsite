@@ -75,10 +75,6 @@ In this step, we decided to do not filter the collaborations within our list of 
 The dataset used for the Network of Song Similaruty is the topsters_all.csv. It contains information about the top 10 songs, of top 10 artists, of all genres. To create this we were based on the artists.csv
 
 To obtain all the relevant data for this particular dataset, we also used the Spotify Library of Python (Spotipy).
-After mining Spotify data, we got the elements needed , by mainly using the following functins:
-
->sp.artist_top_tracks<br>
-sp.audio_features
 
 The topsters_all.csv contains the following data in order.
 * **Genre**: A list, which contains the genre(s) that the song belongs to. To do this we "borrowed" the genre(s) of the relevant artist from the artists.csv.
