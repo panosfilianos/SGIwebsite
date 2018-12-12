@@ -1,6 +1,6 @@
 ---
 menu: true
-order: 2
+order: 1
 layout: research
 title: Collaboration Networks
 ---
@@ -11,7 +11,7 @@ The data that we have used during this section has been the list of 100 artists 
 
 Thanks to the information retrieved from the artists' songs colaborations, the following network has been created.
 
-[Add picture]
+![Imgur](https://i.imgur.com/1PJirji.png){:class="img-responsive"}
 
 ### Main characteristics of the structure of the network
 
@@ -69,7 +69,7 @@ We can also see with the results retrieved for rock and blues artists are the on
 *Analysis of the isolated nodes*
 
 
-[Add graph]
+![Imgur](https://i.imgur.com/JuN05MG.png){:class="img-responsive"}
 
 With the information retrieved, we can say that the genre with more artists without collaborations is *rock*. In fact, more than fifty artists of the rock genre have no collaborations, which means that 50% of the artists of genre rock do not collaborate with other artists. This measure is quite significant to determine that rock artists tend to just perform their own music.
 
@@ -80,7 +80,7 @@ Rock genre is followed by blues and indie, which have around 40 isolated artists
 
 We want to also analyze the number of times that each artist has collaborated with other artists. To do it, a second visualization of the graph is displayed below. On it, each node is also colored by genre and the size assigned to the node is the weighted degree of each one.
 
-[Add picture]
+![Imgur](https://i.imgur.com/foM6aqf.png){:class="img-responsive"}
 
 ### Main characteristics of the structure of the network
 
@@ -146,19 +146,39 @@ It can be recognized that the artists retrieved per genre are the mainly the sam
 
 ## Centralities
 
+To obtain deeper information of the artists, a further analysis on the centrality of the nodes has been developed.For each centrality calculated, a visualization network and the top results calculated have been shown.
+
 ### Betweenness centrality
 
-### Closeness centrality
+![Imgur](https://i.imgur.com/tmDURUR.png){:class="img-responsive"}
+
+**Main outcome abstracted:**
+
+* There are around seven nodes that seem to be more influential.
+* There is a rock artist that seems to be the most influential one on the whole network, followed by a hip-hop artists, three country artists and two mixed genre artists. 
+* The isolated or low connected nodes have a very small value of betweenness centrality.
+* The most influential node of the network is Elton John. It is followed by Snoop Dogg, country artist.
+* There are artists that even they do not have a lot of numbers of collaborations and connections on the node, they are considered the most influential artists of the network. So, if we would be artists, maybe it could be a good idea to think on them to do our next collaboration if we want to arrive to more public.
+
 
 ### Eigenvector centrality
 
+![Imgur](https://i.imgur.com/R0JDq2x.png){:class="img-responsive"}
+
+**Main outcome abstracted:**
+
+* The artists considered as more influential are the ones with higher eigenvector centrality.
+* The most influential artists are artists from mixed, hip-hop and pop genres. 
+* In fact, the artists of the mixed genre seem to have a slightly higher value calculated. So we can say that artists of these genres tend to do more collaborations than the other ones.
+* We can identify Gucci Mane as the most collaborative artist of our network.
+* Blues artists are the less collaborative ones.
 
 ## Degree distribution per genre
 
 The distribution of collaborations between the artists of our network is calculated to 
 check which is the genre that tends to have more artists that collaborated with other ones. A table with the total number of collaborations per genre is also shown.
 
-[Add plot]
+![Imgur](https://i.imgur.com/VQCsJDF.png){:class="img-responsive"}
 
 |         | Number of collaborations |
 |---------|--------------------------|
@@ -177,9 +197,9 @@ With the plot and information displayed, we can confirm that *hip-hop* and *pop*
 
 At this point, we would like to see if artists of one same genre, tend to collaborate with artists of the same genre or to different ones. To do it, we have found the different communities in our network and we will see if exists a correlation with the genres assigned to each node. A graph visualization with the nodes showed by community and a confusion matrix are showed below.
 
-[Add graph]
+![Imgur](https://i.imgur.com/dXoVLf1.png){:class="img-responsive"}
 
-[Confusion matrix
+![Imgur](https://i.imgur.com/Fk7toAU.png){:class="img-responsive"}
 
 **Main information abstracted from the communities created:**
 
@@ -216,7 +236,7 @@ Before doing that we have retrieved some useful information regarding the clique
 
 An example of clique calculated is shown below.
 
-[Add picture]
+![Imgur](https://i.imgur.com/8dkOUz2.png){:class="img-responsive"}
 
 ## Recommendation system
 
@@ -224,13 +244,17 @@ The bases for a recommendation system of artists based on the information retrie
 
 The recommended artists for the artist *Ed Sheran* using our first approach are showed below.
 
-[Add picture]
+![Imgur](https://i.imgur.com/AFv0OxC.png){:class="img-responsive"}
 
 
 The recommended artists for the artist *Ed Sheran* using our second approach are showed below.
 
+![Imgur](https://i.imgur.com/2EmYicd.png){:class="img-responsive"}
 
-[Add picture]
+# Conclusions
+
+* *What we have done right.* After finishing the analysis of the network of collaborations, we think that we have represented correctly the information of the collaboration between artists on the network created. We struggled a little bit at the beginning to really understand the format and structure of the information retrieved on the services of the Spotify API, because it was not really clear with the information provided on their services. That is why we have included the whole analysis done on the creation of our network, even our first approach was not the correct one. But thanks to our exhaustive analysis on the format and data obtained on the first directed graph created, we have been able to create a new approach with the data well preprocessed. Thanks to this second approach with an undirected graph, we have been able to easily analyze the collaborations done between the different artists and we have applied convenient tools and techniques learnt during the course to extract useful information from the data. We are especially proud to have been able to create the basis for a recommendation system.
+
+* *What we have not done.* First of all, we think that we could have visualized some results in a more user-friendly way. Especially, the information retrieved from some functions as outputs on the Jupyter notebook. Furthermore, we think that we could have tried to create a function that shows the basis of the recommended system for more artists on the website. But, unfortunately, we have not had more time to do it. In addition, we think that our same analysis should have done with a higher dataset, with more artists and more genres in order to extract more information from it. And, finally, we could also download data from other well-known streaming services (e.g. SoundCloud or Youtube) to see if the results obtained are similar ones or not.
 
 ### [Go back to the home page](https://scoupafi.github.io/SGIwebsite/index.html)
-
