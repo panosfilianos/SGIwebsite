@@ -24,7 +24,6 @@ For the Song Similarity part of this assignment we create a 600KB file of 5.549 
 Each line of our dataset should represent one unique song and various information about it.<br><br>
 One could argue that we should have 7.000 songs, since we download the top 10 songs of top 100 artists of each one of 7 genres.<br>
 The answer to this concern is that a lot of duplicate songs occured, which we have eliminated from our final file, in order to really have a **_unique_** song per line.
-
 ### This file, among others, contains an audio metric for each song.
 >#### ***The audio metric is a vector that includes the 3 following musical attributes:***<br>
 **_Valence_**:<br> 
@@ -33,9 +32,9 @@ A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a trac
 Energy is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale.<br><br>
 **_Danceability_**:<br>
 Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable.<br>
->#### ***The 3 aformentioned attributes will be used to assess the musical similarity between songs.***
+>#### ***The 3 aformentioned attributes will be used to assess the musical similarity between songs*** and determine the _mood_ of a song
 
-### All the required data was obtained but, naturally, a serious concern rised:
+### Ok. All the required data was obtained but, naturally, a serious concern rised:
 How are we going to compare the songs using this audio metric?<br>
 
 _At first we had one idea:_
@@ -51,3 +50,12 @@ We said before that the three elements of the vector are valence, energy and dan
 
 3 photos of the respective distributions.
 
+
+As we see from the distributions above, the pattern we have talked about earlier really exists in a very high amount of songs, for every pair of elements. However, there are also quite a few songs with high "distance" between their elements and this cannot go unnoticed.<br><br>
+Since it is always better to use examples, below you can hear how a song with very **low valence**, but **high danceability** sounds like.
+> This song has valence = 0.12 and danceabilty = 0.73. We remind you that the max value for these elements is 1.<br><br>
+
+Keep reading and enjoy!
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=q7lKpkW_jG8" target="_blank"><img src="http://img.youtube.com/vi/q7lKpkW_jG8/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
