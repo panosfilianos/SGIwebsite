@@ -6,7 +6,8 @@ youtubeId: McUXxyVUw8s
 ---
 # A Look into Spotify's Top of the Top
 
-[See this in Google](http://www.google.com){: .btn}
+[See the Explainer Notebook](http://www.google.com){: .btn} 
+[Get our dataset](http://www.google.com){: .btn}
 
 ## Motivation
 ### Music is a beautiful thing. 
