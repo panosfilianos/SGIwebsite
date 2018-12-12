@@ -48,11 +48,11 @@ We said before that the three elements of the vector are valence, energy and dan
 >As you will see below, what we did was find the distribution of the absolute subtraction between two elements, for each pair of elements. If all songs have a very small difference between their elements' values, then we can safely use the mean.
 
 
-[Imgur](https://i.imgur.com/WgoeiEk.png){:class="img-responsive"}<br>
+![Imgur](https://i.imgur.com/WgoeiEk.png){:class="img-responsive"}<br>
 
-[Imgur](https://i.imgur.com/lffU2Z9.png){:class="img-responsive"}<br>
+![Imgur](https://i.imgur.com/lffU2Z9.png){:class="img-responsive"}<br>
 
-[Imgur](https://i.imgur.com/hRj1VWp.png){:class="img-responsive"}<br>
+![Imgur](https://i.imgur.com/hRj1VWp.png){:class="img-responsive"}<br>
 
 
 As we see from the distributions above, the pattern we have talked about earlier really exists in a very high amount of songs, for every pair of elements. However, there are also quite a few songs with high "distance" between their elements and this cannot go unnoticed.<br><br>
@@ -68,10 +68,8 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 ***So, after actually listening to songs with high distance between their elements, we came up with a second idea, regarding how we are goint to use our vector. And that is the idea we kept :***
 
 - #### We calculate the Euclidean distance between the vectors.
->This way we use the whole vector and essentially create a sphere in space, which contains all the vectors with distance equal, or lower to the one that we choose to use as a treshold.<br><br>
-***if:***<br><br>
-$ \sqrt{(valence_2 - valence_1)^2 + (energy_2 - energy_1)^2 + (danceability_2 - danceability_1)^2} <= treshold $, <br><br>
-***then add_edge between 1 and 2***
+>This way we use the whole vector and essentially create a sphere in space, which contains all the vectors with distance equal, or lower to the one that we choose to use as a treshold.
+
 
 In the next chapter you will see the graph created, following the idea described above.
 
@@ -93,12 +91,12 @@ In the next chapter you will see the graph created, following the idea described
 #### Visualization
 
 
-[Imgur](https://i.imgur.com/DstBnUJ.png){:class="img-responsive"}
+![Imgur](https://i.imgur.com/DstBnUJ.png){:class="img-responsive"}
 
 
 #### Degree Distribution of Pop Songs Network
 
-[Imgur](https://i.imgur.com/5wj8p6s.png){:class="img-responsive"}
+![Imgur](https://i.imgur.com/5wj8p6s.png){:class="img-responsive"}
 
 
 What we cam see from the distribution above is that most nodes are low-connected, while only a few nodes are the most connected ones.
@@ -131,7 +129,7 @@ By the above we can see that Pop's main mood and sound has average "happyness", 
 
 There are 11 main communities in the Pop network.
 
-[Imgur](https://i.imgur.com/DstBnUJ.png){:class="img-responsive"}
+![Imgur](https://i.imgur.com/DstBnUJ.png){:class="img-responsive"}
 
 
 ### Network of Rock
@@ -139,12 +137,12 @@ There are 11 main communities in the Pop network.
 #### Visualization
 
 
-[Imgur](https://i.imgur.com/FTn2N0A.png){:class="img-responsive"}
+![Imgur](https://i.imgur.com/FTn2N0A.png){:class="img-responsive"}
 
 
 #### Degree Distribution of Rock Songs Network
 
-[Imgur](https://i.imgur.com/FHbaI6S.png){:class="img-responsive"}
+![Imgur](https://i.imgur.com/FHbaI6S.png){:class="img-responsive"}
 
 Below you can see the degree distribution of the Rock Network of Musical Similarity.
 
@@ -181,18 +179,18 @@ By the above metric values, we can see that Rock's main mood and sound has avera
 
 There are 13 main communities in the network.
 
-[Imgur](https://i.imgur.com/rRgTQsf.png){:class="img-responsive"}
+![Imgur](https://i.imgur.com/rRgTQsf.png){:class="img-responsive"}
 
 
 ### Network of Hip-Hop
 
 #### Visualization
 
-[Imgur](https://i.imgur.com/U1Vvcqn.png){:class="img-responsive"}
+![Imgur](https://i.imgur.com/U1Vvcqn.png){:class="img-responsive"}
 
 #### Degree Distribution of Hip-Hop Songs Network
 
-[Imgur](https://i.imgur.com/km5dFxl.png){:class="img-responsive"}
+![Imgur](https://i.imgur.com/km5dFxl.png){:class="img-responsive"}
 
 The same pattern continues with most songs being more low-connected and less songs having the higher degree.
 
@@ -222,18 +220,18 @@ By the above we can see that Hip-Hop's main mood and sound has relatively low "h
 
 There are 8 main communities in the Hip- Hop network.
 
-[Imgur](https://i.imgur.com/sTtMn4T.png){:class="img-responsive"}
+![Imgur](https://i.imgur.com/sTtMn4T.png){:class="img-responsive"}
 
 
 ### Network of Blues
 
 #### Visualization
 
-[Imgur](https://i.imgur.com/c5KhkLR.png){:class="img-responsive"}
+![Imgur](https://i.imgur.com/c5KhkLR.png){:class="img-responsive"}
 
 #### Degree Distribution of Blues Songs Network
 
-[Imgur](https://i.imgur.com/d4OTzAY.png){:class="img-responsive"}
+![Imgur](https://i.imgur.com/d4OTzAY.png){:class="img-responsive"}
 
 In this genre it is clear that we moved from the previous pattern, closer to the normal gaussian distribution. This means that most of the songs have the same amount of degree  and thus the song "mood" that we calculate is more consistent compared to previous genres.
 
@@ -262,7 +260,7 @@ By the above we can see that Blue's main mood and sound has high "happyness", hi
 
 There are 12 main communities in the Blue's network.
 
-[Imgur](https://i.imgur.com/CR0OMCB.png){:class="img-responsive"}
+![Imgur](https://i.imgur.com/CR0OMCB.png){:class="img-responsive"}
 
 
 
@@ -272,11 +270,11 @@ There are 12 main communities in the Blue's network.
 
 #### Visualization
 
-[Imgur](https://i.imgur.com/StazZid.png){:class="img-responsive"}
+![Imgur](https://i.imgur.com/StazZid.png){:class="img-responsive"}
 
 #### Degree Distribution of Indie Songs Network
 
-[Imgur](https://i.imgur.com/9NitkNm.png){:class="img-responsive"}
+![Imgur](https://i.imgur.com/9NitkNm.png){:class="img-responsive"}
 
 The degree distribution again moves back to the previous pattern, having most of the songs concentrated on degrees, lower than the mean one, in the same respect as Pop and Rock.
 
@@ -304,7 +302,7 @@ By the above we can see that Indie's main mood and sound has relativiley low "ha
 
 There are 13 main communities in Indie's network.
 
-[Imgur](https://i.imgur.com/vTU2SqA.png){:class="img-responsive"}
+![Imgur](https://i.imgur.com/vTU2SqA.png){:class="img-responsive"}
 
 
 
@@ -312,11 +310,11 @@ There are 13 main communities in Indie's network.
 
 #### Visualization
 
-[Imgur](https://i.imgur.com/XqKYju0.png){:class="img-responsive"}
+![Imgur](https://i.imgur.com/XqKYju0.png){:class="img-responsive"}
 
 #### Degree Distribution of Country Songs Network
 
-[Imgur](https://i.imgur.com/9FrpLAQ.png){:class="img-responsive"}
+![Imgur](https://i.imgur.com/9FrpLAQ.png){:class="img-responsive"}
 
 The degree distribution follows the pattern of most genres. Few songs give the general "mood" og the genre's songs.
 
@@ -344,7 +342,7 @@ By the above we can see that Country's main mood and sound has relativiley high 
 
 There are 8 main communities in Country's network.
 
-[Imgur](https://i.imgur.com/h7VgomE.png){:class="img-responsive"}
+![Imgur](https://i.imgur.com/h7VgomE.png){:class="img-responsive"}
 
 
 
@@ -352,11 +350,11 @@ There are 8 main communities in Country's network.
 
 #### Visualization
 
-[Imgur](https://i.imgur.com/vi5JK5j.png){:class="img-responsive"}
+![Imgur](https://i.imgur.com/vi5JK5j.png){:class="img-responsive"}
 
 #### Degree Distribution of Soul Songs Network
 
-[Imgur](https://i.imgur.com/WThv9Wx.png){:class="img-responsive"}
+![Imgur](https://i.imgur.com/WThv9Wx.png){:class="img-responsive"}
 
 The degree distribution follows the pattern of most genres. Fewer songs give the general "mood" of the genre's songs.
 
@@ -384,7 +382,7 @@ By the above we can see that Soul's main mood and sound has mild to high "happyn
 
 There are 13 main communities in the network.
 
-[Imgur](https://i.imgur.com/vi5JK5j.png){:class="img-responsive"}
+![Imgur](https://i.imgur.com/vi5JK5j.png){:class="img-responsive"}
 
 
 
@@ -392,18 +390,18 @@ There are 13 main communities in the network.
 
 #### Visualization
 
-[Imgur](https://i.imgur.com/gZHaEKq.png){:class="img-responsive"}
+![Imgur](https://i.imgur.com/gZHaEKq.png){:class="img-responsive"}
 
 #### Degree Distribution of Soul Songs Network
 
-[Imgur](https://i.imgur.com/Yezyaoh.png){:class="img-responsive"}
+![Imgur](https://i.imgur.com/Yezyaoh.png){:class="img-responsive"}
 
 
 #### Barplot of mixes-genre songs per Genre
 
 In many cases we came across songs which did not belong to just one genre. Below we show how many these songs are per genre.
 
-[Imgur](https://i.imgur.com/GKx8Dky.png){:class="img-responsive"}
+![Imgur](https://i.imgur.com/GKx8Dky.png){:class="img-responsive"}
 
 From the above plot we get a well expected result. The more popular genres (pop, hip-hop, rock) have more mixed songs. This makes sense, if we consider that the genres stem from artists and not from the songs, and thus artists from more popular genres have a more diverse and broad range.
 
