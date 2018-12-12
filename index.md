@@ -6,9 +6,9 @@ youtubeId: McUXxyVUw8s
 ---
 # A Look into Spotify's Top of the Top
 
-[See the Explainer Notebook](http://www.google.com){: .btn} 
+[See the Explainer Notebook](http://nbviewer.jupyter.org/github/balbinavr/SGI_Spotify_Project/blob/master/Our%20Music%20Odyssey.ipynb){: .btn} 
 
-[Get our dataset](http://www.google.com){: .btn}
+[Get our dataset](https://github.com/scoupafi/SGI_OMO_dataset/blob/master/SGI_Spotify_Project_OMO_dataset.zip){: .btn}
 
 ## Motivation
 ### Music is a beautiful thing. 
