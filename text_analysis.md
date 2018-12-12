@@ -97,7 +97,7 @@ __Hip-Hop__: The genre's results are similar to Pop. The TF-IDF wordcloud holds 
 
 
 ## Parental advisory
-## An Explicitness Analysis
+### An Explicitness Analysis
 Explicitness here is defined as: _the number of explicit material in the lyrics of a song_. More simply put, its how many swear words a song includes.
 
 We used Google's definition of swear words, which includes the 'mainstream' version of them as well as common variations. The dataset that can be found [here](https://github.com/RobertJGabriel/Google-profanity-words).
@@ -170,3 +170,9 @@ The retrieve a sentiment distributions graphs that made sense we resorted to Joy
 As a tribute to the great band, great album and great people that came up with this vizualization, we will plot the distribution of song sentiment of each artist inside Rock (the closest we have to Joy Division's genre, Punk), to something that will hopefully look similar to you:
 
 ![Imgur](https://i.imgur.com/5Qq5Td7.png){:class="img-responsive"}
+
+## Conclusions
+
+### [Go back to the home page](https://scoupafi.github.io/SGIwebsite/index.html)
+
+
