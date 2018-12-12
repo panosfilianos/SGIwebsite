@@ -21,10 +21,6 @@ For example, this documentation is written in markdown, consisting of several ge
 To add a page, create a new markdown file and put `layout: page` in a front matter
 
 ~~~yml
----
-layout: page
-title:  Documentation
----
 ~~~
 
 Now you can add content as you would in a blog post.
