@@ -251,10 +251,4 @@ The recommended artists for the artist *Ed Sheran* using our second approach are
 
 ![Imgur](https://i.imgur.com/2EmYicd.png){:class="img-responsive"}
 
-# Conclusions
-
-* *What we have done right.* After finishing the analysis of the network of collaborations, we think that we have represented correctly the information of the collaboration between artists on the network created. We struggled a little bit at the beginning to really understand the format and structure of the information retrieved on the services of the Spotify API, because it was not really clear with the information provided on their services. That is why we have included the whole analysis done on the creation of our network, even our first approach was not the correct one. But thanks to our exhaustive analysis on the format and data obtained on the first directed graph created, we have been able to create a new approach with the data well preprocessed. Thanks to this second approach with an undirected graph, we have been able to easily analyze the collaborations done between the different artists and we have applied convenient tools and techniques learnt during the course to extract useful information from the data. We are especially proud to have been able to create the basis for a recommendation system.
-
-* *What we have not done.* First of all, we think that we could have visualized some results in a more user-friendly way. Especially, the information retrieved from some functions as outputs on the Jupyter notebook. Furthermore, we think that we could have tried to create a function that shows the basis of the recommended system for more artists on the website. But, unfortunately, we have not had more time to do it. In addition, we think that our same analysis should have done with a higher dataset, with more artists and more genres in order to extract more information from it. And, finally, we could also download data from other well-known streaming services (e.g. SoundCloud or Youtube) to see if the results obtained are similar ones or not.
-
 ### [Go back to the home page](https://scoupafi.github.io/SGIwebsite/index.html)

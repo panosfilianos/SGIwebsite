@@ -19,14 +19,6 @@ Thus, we have decided to have a closer look on what are the attriutes of lyrics 
 
 Finally, by utilizing our results we can effectively validate assumptions about characteristics of Genres, build useful tools and unearth improbable or unexpected connections between Artists who speak about the same things (or in the same way or about the same feelings) but belong in different Genres.
 
-## It is not easy to find lyrics
-Our research requires us to fetch lyrics. This is a challenging task because there is no open database of all song lyrics available. To successfuly manage to attain the lyrics for our songs we've had to resort in using a mix of services.
-
-Concequently, we used:
-1. __AZLyrics__: AZLyrics offers one of the most comprehensive, open libraries for lyrics.
-2. __LyricWikia__: Unfortunatelly, LyricWikia's library is not completely comprehensive but retrieving data from them is not as daunting as in other places.
-3. __Genius__: Genius's library of lyrics is focused in (and started from) Hip-Hop and Pop songs. Regardless, in the last years there has been a surge of new lyric pages of more genres. Genius is used extensively in the final solution, as LyricWikia can drop the ball in terms of finding lesser known songs.
-
 ## Words have amazing value
 The backbone of this analysis is comprised from the lyrics' text and the things we do with it. We tried to go as deep as possible and extract a multitude of results and conclusions on them. After all, words _can_ tell a complete story.
 
