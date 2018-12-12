@@ -69,18 +69,31 @@ We, also, define the term _rythm collocations_: They are words that can be found
 These are the results:
 
 ![Imgur](https://i.imgur.com/SAhSNKY.png){:class="img-responsive"}
+
 __Indie__: The frequency wordcloud is created off terms that are coming up in all genres. The TF-IDF wordcloud is comprised of names, rhythm collocations but also some words that are part of the hook of the song. These words are abstract (eg. Lionheart, Superlove, Aftershock etc.)
+
 ![Imgur](https://i.imgur.com/E6N9bF8.png){:class="img-responsive"}
+
 __Country__: Its TF-IDF's wordcloud gives some very interesting results. One can recognize distinctive words that consist of a plularity of themes. Words like this are: redneck, tailgate, crank - hank, cowboy, country, truck, tractor. These results give us a good idea on what Country is talking about.
+
 ![Imgur](https://i.imgur.com/kOWiPFT.png){:class="img-responsive"}
+
 __Soul__: Soul doesn't seem to have a lot of differences between Freq and TF-IDF. It is interesting to note the creativity, difference and uniqueness of the rhythm collocations. Some examples are: duda shaka, badu (which comes up in repetitions throughout songs), chikaching.
+
 ![Imgur](https://i.imgur.com/WSPHhFl.png){:class="img-responsive"}
+
 __Pop__: Pop, also, doesn't seem to have any meaningful differences between Freq and TF-IDF. Most TF-IDF terms are names, leading us to the conclusion that songs can be the same (or very similar). Just changing the names, would change the song.
+
 ![Imgur](https://i.imgur.com/zZriTmp.png){:class="img-responsive"}
+
 __Rock__: Songs seem to have significant differences. Words like: Thunder, Rosana and Propaganda come up in the TF-IDF wordcloud.
+
 ![Imgur](https://i.imgur.com/1tLC6Rh.png){:class="img-responsive"}
-__Blues__: Although Blues songs won't have big differences, it's entertaining to see the TF-IDF include a lot of female names, implying similar love songs written for different women. Names like this are: Josephine, Layla, Rosalie, Madison 
+
+__Blues__: Although Blues songs won't have big differences, it's entertaining to see the TF-IDF include a lot of female names, implying similar love songs written for different women. Names like this are: Josephine, Layla, Rosalie, Madison
+ 
 ![Imgur](https://i.imgur.com/lNRzpmI.png){:class="img-responsive"}
+
 __Hip-Hop__: The genre's results are similar to Pop. The TF-IDF wordcloud holds mostly names like: Snoop, Dogg, Krippy, Maybach etc.
 
 
@@ -91,7 +104,9 @@ Explicitness here is defined as: _the number of explicit material in the lyrics 
 We used Google's definition of swear words, which includes the 'mainstream' version of them as well as common variations. The dataset that can be found [here](https://github.com/RobertJGabriel/Google-profanity-words).
 
 These are our results:
+
 ![Imgur](https://i.imgur.com/oQrkTDV.png){:class="img-responsive"}
+
 Analyzing the results above:
 - __King of Swears__: __Hip-Hop__ is the undisputed winner. In a total of less than 1000 songs, almost 2500 swear words where used. The genre does not seem to have a large amount of swearing vocabulary, concentrating its impressive numbers into three swear words.
 - The __most creative__ in the use of swear words, are both __Soul__ and __Pop__ concentrating their results in 4 swear words.
@@ -112,7 +127,9 @@ We worked by indentifying brands that are included in:
 - Top 10 Brands in Tobacco
 
 The results are, once again, very interesting:
+
 ![Imgur](https://i.imgur.com/nJ81efF.png){:class="img-responsive"}
+
 - __Choosing the medium__: Not all categories of brands come up in the plot. Tobacco and Spirit brands seem to have no representation. At the same time, brands from other categories come up more frequently. That is specifically true for Fashion, Auto (Car) and Global brands. 
 - __Participation denial__: Also, not all genres include brand mentions. In particular, Indie and Soul seem to have far less mentions, where Rock and Blues, almost none.
 - __The Advertiser__: __Hip-Hop__ is the genre that mentions brands the most. The most advertised through Hip-Hop songs, are Fashion brands, with Auto brands a close second.
@@ -120,7 +137,9 @@ The results are, once again, very interesting:
 
 ## Wordy or laconic?
 We also researched the wordiness of each genre. That is _how many words does a genre's song have approximatelly? Are there genres that are very wordy and rely strongly on lyrics or are they somewhat the same?_
+
 ![Imgur](https://i.imgur.com/ja80C5g.png){:class="img-responsive"}
+
 A few interesting insights can be offered through the representation above: 
 - Firstly we see that Hip-Hop is the undisputed winner of the wordiness contest. Having almost __3 times__ more words on average than Blues, the less wordy genre of them all and almost __2 times__ more than all other genres (with the exception of Pop).
 - Secondly, we see that Country, Soul, Rock and Indie have similar words per song.  We indentify Indie's mean to be a little higher, since Indie is an umbrella term that refers more to the way the music is released than the actual content. Thus, inside Indie one can find music of multiple genres which includes Indie Hip-Hop. As we see Hip-Hop is inherently wordy and thus the small increase in Indie.
@@ -128,12 +147,14 @@ A few interesting insights can be offered through the representation above:
 ## New words for me
 #### Lexical wealth
 We also attempted to find how lexically wealthy each genre is. To do this, we found the number of different words inside every genre:
-![Imgur](https://i.imgur.com/ymjmTEE.png){:class="img-responsive"}
-We see that the results largely correlates with the 'Average Number of words per song per genre' presented above. Hip-Hop is the most lexical diverse, where blues is the least diverse. 
 
+![Imgur](https://i.imgur.com/ymjmTEE.png){:class="img-responsive"}
+
+We see that the results largely correlates with the 'Average Number of words per song per genre' presented above. Hip-Hop is the most lexical diverse, where blues is the least diverse. 
 ## Count (on) my words
 #### How are words distributed in songs of a genre?
 This time we focus on a __word count distribution__ per song, presented by genre:
+
 ![Imgur](https://i.imgur.com/dDtynpD.png){:class="img-responsive"}
 
 We observe that:
@@ -142,31 +163,11 @@ We observe that:
 
 
 ## JoyPlots: A small tribute
+
 The retrieve a sentiment distributions graphs that made sense we resorted to Joy Plots. These plots, apparently took their name from the iconic album cover of __Joy Division's Unknown Pleasures__ album ([Source](https://blog.revolutionanalytics.com/2017/07/joyplots.html)). The album cover is presented below:
+
 ![Imgur](https://i.imgur.com/WIOXmOu.png){:class="img-responsive"}
 
 As a tribute to the great band, great album and great people that came up with this vizualization, we will plot the distribution of song sentiment of each artist inside Rock (the closest we have to Joy Division's genre, Punk), to something that will hopefully look similar to you:
 
 ![Imgur](https://i.imgur.com/5Qq5Td7.png){:class="img-responsive"}
-
-
-
-
-
-
-![Imgur](https://i.imgur.com/WSPHhFl.png){:class="img-responsive"}
-![Imgur](https://i.imgur.com/E6N9bF8.png){:class="img-responsive"}
-![Imgur](https://i.imgur.com/kOWiPFT.png){:class="img-responsive"}
-![Imgur](https://i.imgur.com/5Qq5Td7.png){:class="img-responsive"}
-![Imgur](https://i.imgur.com/zZriTmp.png){:class="img-responsive"}
-![Imgur](https://i.imgur.com/SAhSNKY.png){:class="img-responsive"}
-![Imgur](https://i.imgur.com/lNRzpmI.png){:class="img-responsive"}
-![Imgur](https://i.imgur.com/WIOXmOu.png){:class="img-responsive"}
-![Imgur](https://i.imgur.com/1tLC6Rh.png){:class="img-responsive"}
-![Imgur](https://i.imgur.com/T4rU2WC.png){:class="img-responsive"}
-![Imgur](https://i.imgur.com/dDtynpD.png){:class="img-responsive"}
-![Imgur](https://i.imgur.com/nJ81efF.png){:class="img-responsive"}
-![Imgur](https://i.imgur.com/HH7gSJY.png){:class="img-responsive"}
-![Imgur](https://i.imgur.com/ymjmTEE.png){:class="img-responsive"}
-![Imgur](https://i.imgur.com/oQrkTDV.png){:class="img-responsive"}
-![Imgur](https://i.imgur.com/ja80C5g.png){:class="img-responsive"}
