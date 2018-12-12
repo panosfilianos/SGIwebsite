@@ -1,6 +1,6 @@
 ---
 menu: true
-order: 2
+order: 1
 layout: research
 title: Collaboration Networks
 ---
@@ -146,12 +146,36 @@ It can be recognized that the artists retrieved per genre are the mainly the sam
 
 ## Centralities
 
+To obtain deeper information of the artists, a further analysis on the centrality of the nodes has been developed.For each centrality calculated, a visualization network and the top results calculated have been shown.
+
 ### Betweenness centrality
 
-### Closeness centrality
+[Add graph]
+
+[Add table]
+
+**Main outcome abstracted:**
+
+* There are around seven nodes that seem to be more influential.
+* There is a rock artist that seems to be the most influential one on the whole network, followed by a hip-hop artists, three country artists and two mixed genre artists. 
+* The isolated or low connected nodes have a very small value of betweenness centrality.
+* The most influential node of the network is Elton John. It is followed by Snoop Dogg, country artist.
+* There are artists that even they do not have a lot of numbers of collaborations and connections on the node, they are considered the most influential artists of the network. So, if we would be artists, maybe it could be a good idea to think on them to do our next collaboration if we want to arrive to more public.
+
 
 ### Eigenvector centrality
 
+[Add graph]
+
+[Add table]
+
+**Main outcome abstracted:**
+
+* The artists considered as more influential are the ones with higher eigenvector centrality.
+* The most influential artists are artists from mixed, hip-hop and pop genres. 
+* In fact, the artists of the mixed genre seem to have a slightly higher value calculated. So we can say that artists of these genres tend to do more collaborations than the other ones.
+* We can identify Gucci Mane as the most collaborative artist of our network.
+* Blues artists are the less collaborative ones.
 
 ## Degree distribution per genre
 
