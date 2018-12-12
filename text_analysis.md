@@ -4,8 +4,7 @@ order: 4
 layout: research
 title: Text Analysis
 ---
-
-## Text Analysis of Spotify's Top of the Top
+# Text Analysis of Spotify's Top of the Top
 ## Music is a beautiful thing.
 It connects people of different backgrounds, from different parts of the world in a nearly automatic, subconcious level. It allows us to experience a mystical, unexplainable joy that is hard to come by in a world that is becoming increasingly logical and technocratic.
 
@@ -42,7 +41,7 @@ We analysed lyrics on the basis of being members in specific genres but also as 
 - An analysis on the brands mentioned, divided by their sector
 
 ## Feelings of Love and Hate
-#### Inside Spotify's Top of the Top
+### Inside Spotify's Top of the Top
 Each word can have a certain sentiment value. This is assigned by asking a lot of people how they would rate that song sentimentally from 0 to 10 (0 being really sad and 10 being the happiest). All results for all words are kept into datasets.
 We utilized three datasets/libraries to derive the sentimet results of the full corpus of lyrics:
     - Hedonometer sentiment (based on this [article](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0026752#s1))
@@ -58,7 +57,7 @@ Through this plot we can derive some interesting results:
 - The most __sentimentaly versatile__ genres are both __Blues__ and __Soul__: Both genres have a strong representation through their artists on the whole of the presented spectrum
 
 ## Listening to all songs at once
-#### Most Frequent Terms and TF-IDF
+### Most Frequent Terms and TF-IDF
 In this section we essentialy tried to validate an assumption:
 > Songs, after all, are not that different. If you hear a song that belongs to a genre, it's like you've listened to the whole of it.
 
@@ -145,14 +144,14 @@ A few interesting insights can be offered through the representation above:
 - Secondly, we see that Country, Soul, Rock and Indie have similar words per song.  We indentify Indie's mean to be a little higher, since Indie is an umbrella term that refers more to the way the music is released than the actual content. Thus, inside Indie one can find music of multiple genres which includes Indie Hip-Hop. As we see Hip-Hop is inherently wordy and thus the small increase in Indie.
 
 ## New words for me
-#### Lexical wealth
+### Lexical wealth
 We also attempted to find how lexically wealthy each genre is. To do this, we found the number of different words inside every genre:
 
 ![Imgur](https://i.imgur.com/ymjmTEE.png){:class="img-responsive"}
 
 We see that the results largely correlates with the 'Average Number of words per song per genre' presented above. Hip-Hop is the most lexical diverse, where blues is the least diverse. 
 ## Count (on) my words
-#### How are words distributed in songs of a genre?
+### How are words distributed in songs of a genre?
 This time we focus on a __word count distribution__ per song, presented by genre:
 
 ![Imgur](https://i.imgur.com/dDtynpD.png){:class="img-responsive"}
