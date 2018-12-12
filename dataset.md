@@ -81,28 +81,33 @@ After mining Spotify data, we got the elements needed , by mainly using the foll
 sp.audio_features
 
 The topsters_all.csv contains the following data in order.
->- **Genre**: A list, which contains the genre(s) that the song belongs to. To do this we "borrowed" the genre(s) of the relevant artist from the artists.csv.
-- **Artist**: The artist's name.
-- **Artist_id**: Spotify API assigns a unique ID to each Artist.
-- **Song**: The name of the song.
-- **Song_id**: Similarly with Artists, Spotify API assigns a unique ID TO each song. This way you can distinguish to songs that might share the same name.
+* **Genre**: A list, which contains the genre(s) that the song belongs to. To do this we "borrowed" the genre(s) of the relevant artist from the artists.csv.
+* **Artist**: The artist's name.
+* **Artist_id**: Spotify API assigns a unique ID to each Artist.
+* **Song**: The name of the song.
+* **Song_id**: Similarly with Artists, Spotify API assigns a unique ID TO each song. This way you can distinguish to songs that might share the same name.
 - **Audio_Metric**: A vector of 3 elements. Each of these elements is a particular audio feature. Namely, _Valence_, _Energy_ and _Dancebility_. We got those features by mining the Spotify API.
 
 ## Lyrics Mining
 
-Lyric mining is a challenging task. This falls under the caveats of our venture. As with the challenges we faced with data preparation from Spotify, lyric mining would become the next big hurdle for us. To successfuly manage to attain the lyrics for our songs we've had to resort in using a mix of services. A simpler solution would be to use the [Musicmatch API](https://developer.musixmatch.com/) which offers direct access to the data we need.  
+Lyric mining is a challenging task. This falls under the caveats of our venture. As with the challenges we faced with data preparation from Spotify, lyric mining would become the next big hurdle for us. To successfuly manage to attain the lyrics for our songs we've had to resort in using a mix of services. A simpler solution would be to use the Musicmatch API which offers direct access to the data we need.  
 
 We have decided to refrain from using that API because:
 - The free available version of their service is limited to 2000 requests per day and only 30% of the song. Even though the first part of the problem can be dealt with, by mining on consecutive days, the second part would be a roadblock for a meaningful lyrical analysis.
-- [The costs are very high](https://developer.musixmatch.com/plans) for the amount of data we need.
+- The costs are very high for the amount of data we need.
 
-Regardless, it is interesting to note that Musicmatch is [offering solutions](https://developer.musixmatch.com/ai)  that can greatly resemble the possibilities that one has by enhancing the solutions described in our research. 
+Regardless, it is interesting to note that Musicmatch is offering solutions that can greatly resemble the possibilities that one has by enhancing the solutions described in our research. 
 
 Concequently, we have utilized three methods of attaining lyrics:
 1. __AZLyrics__: We directly mine their website for the song in question (using the available `azlyrics` library). AZLyrics offers one of the most comprehensive, open libraries for lyrics. Unfortunately, they impose a Rate Limit on the requests one can make on their website. The Rate Limit itself is unknown and once reached the client's IP is banned for an, also, unknown amount of time.
 2. __LyricWikia__: Our method (through the corresponding library) also uses HTTP requests. Although there are no Rate Limits that seem to be restrictive with this solution, LyricWikia's library is not completely comprehensive.
 3. __Genius__: Genius's library of lyrics is focused in (and started from) Hip-Hop and Pop songs. Regardless, in the last years there has been a surge of new lyric pages of more genres. This solution was designated to be a last resort. Genius does not offer an endpoint to retrieve lyrics (the closest would be `/songs/:id`, but it is essentialy the same as an HTTP request of the website) but rather one to search using their search engines and fetch the result. Thus when finding a possible match for a song, we would mine the song's page and parse it with Beautiful Soup. This leads us to conduct two API queries to receive a result from Genius and thus, due to its increased time requirements. Regardless, Genius is used extensively in the final solution, as LyricWikia can drop the ball in terms of finding lesser known songs.
 
-Each lyric `.csv` file includes the following fields: __'Artist', 'Artist id','Song','Song id','Lyrics'__
+Each lyric `.csv` file includes the following fields: 
+* Artist
+* Artist id
+* Song
+* Song id
+* Lyrics
 
 ### [Go back to the home page](https://scoupafi.github.io/SGIwebsite/index.html)
