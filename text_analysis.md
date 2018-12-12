@@ -171,8 +171,6 @@ As a tribute to the great band, great album and great people that came up with t
 
 ![Imgur](https://i.imgur.com/5Qq5Td7.png){:class="img-responsive"}
 
-## Conclusions
-
 ### [Go back to the home page](https://scoupafi.github.io/SGIwebsite/index.html)
 
 
