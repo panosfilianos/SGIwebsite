@@ -1,6 +1,6 @@
 ---
 menu: true
-order: 2
+order: 3
 layout: research
 title: Musical Similarity Networks
 ---
