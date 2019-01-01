@@ -65,8 +65,8 @@ Keep reading and enjoy!
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 
-***So, after actually listening to songs with high distance between their elements, we came up with a second idea, regarding how we are goint to use our vector. And that is the idea we kept :***
-- ** We calculate the Euclidean distance between the vectors.**
+***So, after actually listening to songs with high distance between their elements, we came up with a second idea, regarding how we are goint to use our vector. And that is the idea we kept :***<br>
+** We calculate the Euclidean distance between the vectors.**
 >This way we use the whole vector and essentially create a sphere in space, which contains all the vectors with distance equal, or lower to the one that we choose to use as a treshold.
 
 
@@ -92,7 +92,7 @@ In the next chapter you will see the graph created, following the idea described
 
 ![Imgur](https://i.imgur.com/DstBnUJ.png){:class="img-responsive"}
 
-** Degree Distribution of Pop Songs Network **
+**Degree Distribution of Pop Songs Network**
 
 ![Imgur](https://i.imgur.com/5wj8p6s.png){:class="img-responsive"}
 
@@ -101,7 +101,7 @@ What we cam see from the distribution above is that most nodes are low-connected
 
 By this kind of degree distribution we could infer that only a few amount of the total of pop songs, represent the "mood" of the genre.
 
-** Top 5 most connected songs of Pop **
+**Top 5 most connected songs of Pop**
 
 1. Love on the Weekend by John Mayer	 
 
@@ -122,7 +122,7 @@ By examining the audio metric, we also see that all top-5songs are very similar 
 
 By the above we can see that Pop's main mood and sound has average "happyness", average energy, and relatively high danceability.
 
-** Community Detection **
+**Community Detection**
 
 There are 11 main communities in the Pop network.
 
@@ -145,7 +145,7 @@ Below you can see the degree distribution of the Rock Network of Musical Similar
 
 Compared to the Pop network, this degree-distribution is closer to the gaussian one, but still there is a tendency of most nodes being more low-connected. So, we have almost the same pattern, of few songs representing rock's main "mood" or style, but in a lesser extent, compared with Pop.
 
-** Top 5 most connected songs of Rock **
+**Top 5 most connected songs of Rock**
 
 1. Master of Puppets (Remastered) by Metallica
 
@@ -159,7 +159,7 @@ Compared to the Pop network, this degree-distribution is closer to the gaussian 
 
 Again, what we see is that all top-5 songs are really close, in terms of musical attributes. What we see, though, is that regardless of their same attributes, their sound is not very close. (e.g. Master of Puppets by Metallica, and Into the Night by Santana).
 
-** Why this happens? **
+**Why this happens?**
 > The musical attributes we have chosen can detect the general "mood" of the song, how upbeat it is, or how slow and sad. What they cannot detect well is the actual sound, which may stem from the actual instruments that are used.
 Further we discuss reasons for why this happens and how the reliability of our metric could by improved, without ay change of the metric itself.
 
@@ -169,7 +169,7 @@ Further we discuss reasons for why this happens and how the reliability of our m
 
 By the above metric values, we can see that Rock's main mood and sound has average "happyness", very high energy, and relatively high danceability.
 
-** Community Detection **
+**Community Detection**
 
 There are 13 main communities in the network.
 
@@ -182,13 +182,13 @@ There are 13 main communities in the network.
 
 ![Imgur](https://i.imgur.com/U1Vvcqn.png){:class="img-responsive"}
 
-** Degree Distribution of Hip-Hop Songs Network **
+**Degree Distribution of Hip-Hop Songs Network**
 
 ![Imgur](https://i.imgur.com/km5dFxl.png){:class="img-responsive"}
 
 The same pattern continues with most songs being more low-connected and less songs having the higher degree.
 
-** Top 5 most connected songs of Hip-Hop **
+**Top 5 most connected songs of Hip-Hop**
 
 1. Yoppa (with BlocBoy JB) by BlocBoy JB
 
@@ -209,7 +209,7 @@ The top-5 of Hip-Hop are really close regarding the musical attributes we have e
 
 By the above we can see that Hip-Hop's main mood and sound has relatively low "happyness", moderate, but high danceability.
 
-** Community Detection **
+**Community Detection**
 
 There are 8 main communities in the Hip- Hop network.
 
@@ -222,14 +222,14 @@ There are 8 main communities in the Hip- Hop network.
 
 ![Imgur](https://i.imgur.com/c5KhkLR.png){:class="img-responsive"}
 
-**  Degree Distribution of Blues Songs Network **
+**Degree Distribution of Blues Songs Network**
 
 ![Imgur](https://i.imgur.com/d4OTzAY.png){:class="img-responsive"}
 
 In this genre it is clear that we moved from the previous pattern, closer to the normal gaussian distribution. This means that most of the songs have the same amount of degree  and thus the song "mood" that we calculate is more consistent compared to previous genres.
 
 
-** Top 5 most connected songs of Blues **
+**Top 5 most connected songs of Blues**
 
 1. American Woman - 7" Version by The Guess Who
 
@@ -249,7 +249,7 @@ Through the degree distribution we have seen that the songs' "mood" obtained by 
 
 By the above we can see that Blue's main mood and sound has high "happyness", high energy, but an average danceability.
 
-** Community Detection **
+**Community Detection**
 
 There are 12 main communities in the Blue's network.
 
@@ -266,13 +266,13 @@ There are 12 main communities in the Blue's network.
 ![Imgur](https://i.imgur.com/StazZid.png){:class="img-responsive"}
 
 
-** Degree Distribution of Indie Songs Network **
+**Degree Distribution of Indie Songs Network**
 
 ![Imgur](https://i.imgur.com/9NitkNm.png){:class="img-responsive"}
 
 The degree distribution again moves back to the previous pattern, having most of the songs concentrated on degrees, lower than the mean one, in the same respect as Pop and Rock.
 
-** Top 5 most connected songs of Indie **
+**Top 5 most connected songs of Indie**
 
 1. Flight 22 by Kali Uchis
 
@@ -292,7 +292,7 @@ Indie also seems like a more consistent genre in terms of sound of the songs. We
 
 By the above we can see that Indie's main mood and sound has relativiley low "happyness", moderate energy, and makes you move a bit more than just standing still while listening.
 
-** Community Detection **
+**Community Detection**
 
 There are 13 main communities in Indie's network.
 
@@ -306,13 +306,13 @@ There are 13 main communities in Indie's network.
 
 ![Imgur](https://i.imgur.com/XqKYju0.png){:class="img-responsive"}
 
-** Degree Distribution of Country Songs Network **
+**Degree Distribution of Country Songs Network**
 
 ![Imgur](https://i.imgur.com/9FrpLAQ.png){:class="img-responsive"}
 
 The degree distribution follows the pattern of most genres. Few songs give the general "mood" og the genre's songs.
 
-** Top 5 most connected songs of Country **
+**Top 5 most connected songs of Country**
 
 1. 20 in a Chevy by Cole Swindell
 
@@ -332,7 +332,7 @@ Country music is a genre that follows more strongly the pattern we are talking a
 
 By the above we can see that Country's main mood and sound has relativiley high "happyness", very high energy, but they average danceability, and trully country songs are not the ones that someone would expect to dance listening to them.
 
-** Community Detection **
+**Community Detection**
 
 There are 8 main communities in Country's network.
 
@@ -346,13 +346,13 @@ There are 8 main communities in Country's network.
 
 ![Imgur](https://i.imgur.com/vi5JK5j.png){:class="img-responsive"}
 
-** Degree Distribution of Soul Songs Network **
+**Degree Distribution of Soul Songs Network**
 
 ![Imgur](https://i.imgur.com/WThv9Wx.png){:class="img-responsive"}
 
 The degree distribution follows the pattern of most genres. Fewer songs give the general "mood" of the genre's songs.
 
-** Top 5 most connected songs of Soul **
+**Top 5 most connected songs of Soul**
 
 1. Fantasy by Alina Baraz
 
@@ -372,7 +372,7 @@ Soul  also follows the pattern we keep talking about. Only a few songs represent
 
 By the above we can see that Soul's main mood and sound has mild to high "happyness", mild energy and mild danceability.
 
-** Community Detection **
+**Community Detection**
 
 There are 13 main communities in the network.
 
@@ -386,12 +386,12 @@ There are 13 main communities in the network.
 
 ![Imgur](https://i.imgur.com/gZHaEKq.png){:class="img-responsive"}
 
-** Degree Distribution of All Songs Network **
+**Degree Distribution of All Songs Network**
 
 ![Imgur](https://i.imgur.com/Yezyaoh.png){:class="img-responsive"}
 
 
-** Barplot of mixes-genre songs per Genre **
+**Barplot of mixes-genre songs per Genre**
 
 In many cases we came across songs which did not belong to just one genre. Below we show how many these songs are per genre.
 
